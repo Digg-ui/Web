@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Guia de Destinos</title>
+  <link href="Css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+  /* Style the header */
+  .header {
+    background-color:#adc0b4;
+    padding: 20px;
+    text-align: center;
+    /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+<body>
+  <div class="header">
+    <h1>Guia de Destinos</h1>
+    <p>Nosso Web Site é para guiar pessoas/turistas na cidade de São Paulo, mostrando os 3 melhores destinos para visitar na
+      região.</p>
+  </div>
+  <script src="script.js"></script>
+  <section>
+    <h1>Lugares:</h1>
+  <div class="row">
+    <div class="column">
+      <h2>Parque do Ibirapuera</h2>
+     
+       <img src="Img/Parque-do-Ibirapuera_Cidade-de-São-Paulo.jpg" alt="Imagen Cidade" width="300
+        " height="200"
+           
+     <h1> <p>
+       O principal jardim dos paulistanos engloba várias atrações e pode ser visitado várias vezes. As atividades no Parque Ibirapuera são constantemente renovadas, o que torna o local uma fonte inesgotável para turistas e moradores. Seja com uma nova exposição, um concerto inédito, uma apresentação única no teatro ou mesmo um novo entardecer, o Ibirapuera sempre é bem-vindo na agenda turística de quem visita a cidade.
+</p> </h1>
+    </div>
+
+    <div class="column">
+      <h2>MASP</h2>
+       <img src="Img/1247337700-sao-paulo-470-anos.webp" alt="Imagen Cidade" width="300" height="200"
+     <h1> <p>Um dos museus mais importantes da América Latina. Projetado pelo arquiteto Lina Bo Bardi e inaugurado em 1968, o edifício é famoso por seu design inovador, com um grande vão livre que permite uma ampla área de circulação embaixo da estrutura. O MASP abriga uma impressionante coleção de obras, incluindo trabalhos de artistas como Van Gogh, Rembrandt e Picasso, além de ser um espaço vital para exposições e eventos culturais.</p></h1>
+    </div>
+
+    <div class="column">
+      <h2>Ponte Estaiada</h2>
+      <img src="Img/o-que-fazer-em-sao-paulo-capa2019-01.jpg" alt="Imagen Cidade" width="300" height="200"
+      
+        <h1><p>A Ponte Estaiada, oficialmente chamada de Ponte Octávio Frias de Oliveira, é um dos ícones de São Paulo. Inaugurada em 2008, ela se destaca por sua estrutura única, com um vão central que abriga cabos estaiados que sustentam a ponte. Localizada sobre o rio Pinheiros, conecta as zonas sul e oeste da cidade, facilitando o tráfego e oferecendo uma vista deslumbrante, especialmente à noite, quando é iluminada.</p></h1>
+    </div>
+  </div>
+</body>
+
+</html>
